@@ -26,6 +26,10 @@ typedef enum {
 	OP_DIVIDE,
 	OP_NOT,
 	OP_PRINT,
+	OP_JUMP,
+	OP_JUMP_IF_FALSE,
+	OP_LOOP,
+	OP_SWITCH_CASE,
 	OP_RETURN,
 } OpCode;
 
